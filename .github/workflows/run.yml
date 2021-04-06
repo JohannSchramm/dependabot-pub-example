@@ -1,0 +1,12 @@
+name: Dependabot Pub
+
+on: workflow_dispatch
+
+jobs:
+  pub:
+    name: Dependabot Pub
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update
+        uses: JohannSchramm/dependabot-pub-runner@main
