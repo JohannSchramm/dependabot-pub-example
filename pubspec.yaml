@@ -1,4 +1,4 @@
-name: dependabot-pub-example
+name: dependabot_pub_example
 description: A sample Dart/Flutter project
 
 publish_to: 'none'
